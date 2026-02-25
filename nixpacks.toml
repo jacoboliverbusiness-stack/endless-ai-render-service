@@ -1,2 +1,8 @@
 [phases.setup]
 aptPkgs = ['ffmpeg', 'chromium']
+
+[phases.install]
+cmds = ['npm install']
+
+[start]
+cmd = 'node server.js'
